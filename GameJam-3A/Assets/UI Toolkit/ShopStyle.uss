@@ -1,0 +1,11 @@
+:root {
+}
+
+#ShopRoot > #VisualElement > TemplateContainer > #SignRoot > #Container > #HeaderLabel {
+}
+
+.price {
+    color: rgb(255, 230, 0);
+    font-size: 34px;
+    -unity-font-style: bold;
+}
