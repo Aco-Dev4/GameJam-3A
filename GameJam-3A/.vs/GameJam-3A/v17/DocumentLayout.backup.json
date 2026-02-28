@@ -1,14 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\",
+  "WorkspaceRootPath": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\my projects\\gamejam-3a\\gamejam-3a\\assets\\scripts\\ore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\my projects\\gamejam-3a\\gamejam-3a\\assets\\scripts\\orenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\lockzposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockzposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\elevatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\orenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\orenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\elevatorarrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatorarrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +38,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ore.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ore.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Title": "MovingPlatform.cs",
+              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\MovingPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatform.cs",
+              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\MovingPlatform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovingPlatform.cs",
+              "ViewState": "AgIAAAAAAAAEAAAAAMAtwBAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T14:18:35.457Z",
+              "WhenOpened": "2026-02-28T19:19:43.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LockZPosition.cs",
+              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\LockZPosition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LockZPosition.cs",
+              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\LockZPosition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LockZPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T19:07:44.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElevatorArrival.cs",
+              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorArrival.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorArrival.cs",
+              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorArrival.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ElevatorArrival.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwCQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T17:05:58.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ElevatorTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorTrigger.cs",
+              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ElevatorTrigger.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAkwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T16:30:54.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ore.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T14:18:35.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OreNode.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreNode.cs",
+              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OreNode.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreNode.cs",
+              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreNode.cs",
               "RelativeToolTip": "Assets\\Scripts\\OreNode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:56:44.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T13:56:44.069Z"
             }
           ]
         }
