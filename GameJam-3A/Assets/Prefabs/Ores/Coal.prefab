@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ore
   oreData: {fileID: 11400000, guid: 551ad45185e21d544b40840d9d08cf80, type: 2}
-  audio: {fileID: 3666004532638638344}
+  audioS: {fileID: 3666004532638638344}
   hitSound: {fileID: 8300000, guid: 686f173605334f948ac03fbf95e9fbb5, type: 3}
   breakSound: {fileID: 8300000, guid: 59483f281930b9647862a86e7bc5b3f5, type: 3}
   currentHealth: 0

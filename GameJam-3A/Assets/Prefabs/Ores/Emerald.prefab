@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OreHandler
   oreData: {fileID: 11400000, guid: 33e6c85beb0db344abece25ff62af76f, type: 2}
-  audio: {fileID: -3622247924099555206}
+  audioS: {fileID: -3622247924099555206}
   hitSound: {fileID: 8300000, guid: 686f173605334f948ac03fbf95e9fbb5, type: 3}
   breakSound: {fileID: 8300000, guid: 59483f281930b9647862a86e7bc5b3f5, type: 3}
   currentHealth: 0

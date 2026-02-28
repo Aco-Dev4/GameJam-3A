@@ -1,7 +1,6 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines', jobs: y
 Cmd: initializeCompiler
 
-<<<<<<< HEAD
 Cmd: initializeCompiler
 
 Cmd: initializeCompiler
@@ -10,61 +9,6 @@ Cmd: initializeCompiler
 
 Cmd: initializeCompiler
 
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-<<<<<<< HEAD
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-Cmd: initializeCompiler
-
-=======
-=======
->>>>>>> cb5c1951f346373fffce9e97cace55afe235a3f4
 Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
 
 Quitting shader compiler process
->>>>>>> 0f04a0caf880890c2277bc6998e8d4011b234612
