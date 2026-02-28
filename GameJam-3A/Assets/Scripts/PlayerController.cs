@@ -23,11 +23,12 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-
+        
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         mineAction = InputSystem.actions.FindAction("Mine");
     }
+
     void Update()
     {
         Movement();
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
+        /*
         Vector2 playerMove = moveAction.ReadValue<Vector2>();
 
         // Smer pohybu (globálny)
@@ -88,6 +90,66 @@ public class PlayerController : MonoBehaviour
         // Pohybujeme sa v smere moveDirection, ale postava sa díva opačne
         controller.Move((horizontalMove + velocity) * Time.deltaTime);
 
+        animator.SetBool("isMoving", playerMove.magnitude > 0);
+        */
+
+        // --- NÁHRADA ZA NOVÝ INPUT SYSTÉM (Vlož do Update metódy) ---
+
+        // Získanie vstupu zo šípok alebo WASD (Input Manager)
+        float moveX = Input.GetAxisRaw("Horizontal"); 
+        Vector2 playerMove = new Vector2(moveX, 0);
+
+        // Smer pohybu (globálny)
+        Vector3 moveDirection = new Vector3(playerMove.x, 0).normalized;
+        Vector3 horizontalMove = moveDirection * playerData.speed;
+
+        // 1. Plynulé otáčanie TVÁROU ku kamere
+        if (moveDirection.magnitude > 0.1f)
+        {
+            // Ak sa teraz díva chrbtom, pridanie mínus ho otočí čelom
+            Quaternion targetRotation = Quaternion.LookRotation(-moveDirection);
+
+            float rotationSpeed = 15f; // Rýchlosť otáčania
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+
+            // Zvuk kroku
+            if (walkAudio != null && !walkAudio.isPlaying)
+            {
+                walkAudio.loop = true;
+                walkAudio.Play();
+            }
+
+            moving = true;
+        }
+        else
+        {
+            if (walkAudio != null && walkAudio.isPlaying)
+                walkAudio.Stop();
+
+            moving = false;
+        }
+
+        // --- Skok a Gravitácia (Starý Input System) ---
+        // "Jump" je štandardne nastavený na Medzerník v Input Manageri
+        if (controller.isGrounded && Input.GetButtonDown("Jump"))
+        {
+            if (jumpAudio != null) jumpAudio.Play();
+            velocity.y = Mathf.Sqrt(playerData.jumpHeight * -2f * playerData.gravity);
+            animator.SetBool("isJumping", true);
+        }
+
+        if (controller.isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+            animator.SetBool("isJumping", false);
+        }
+
+        velocity.y += playerData.gravity * Time.deltaTime;
+
+        // Pohybujeme sa v smere moveDirection, ale postava sa díva opačne
+        controller.Move((horizontalMove + velocity) * Time.deltaTime);
+
+        // Animácie
         animator.SetBool("isMoving", playerMove.magnitude > 0);
     }
 

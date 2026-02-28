@@ -1,100 +1,199 @@
 using System.Collections;
+
 using UnityEngine;
 
+
+
 public class ElevatorArrival : MonoBehaviour
+
 {
-    [Header("Nastavenia Hráèa")]
-    // Skript pre pohyb hráèa, ktorı na zaèiatku vypneme a na konci zapneme
-    public MonoBehaviour playerMovementScript;
 
-    [Header("Objekty na posunutie (Vıah)")]
-    public Transform object1ToMove;
-    public Transform object2ToMove;
+[Header("Nastavenia Hrï¿½ï¿½a")]
 
-    [Header("Nastavenia pohybu")]
-    public float posunY = -3f; // O ko¾ko sa ešte posunú pri príchode (napr. došliapnutie vıahu)
-    public float trvaniePohybu = 2.5f; // Ako dlho bude trva pohyb a zamknutie
+// Skript pre pohyb hrï¿½ï¿½a, ktorï¿½ na zaï¿½iatku vypneme a na konci zapneme
 
-    [Header("Odtmievanie (Fade In)")]
-    [Tooltip("Panel v UI s CanvasGroup, ktorı bude na zaèiatku èierny")]
-    public CanvasGroup fadeCanvasGroup;
-    public float casOdtmievania = 1.5f; // Ako rıchlo èierna obrazovka zmizne
+public MonoBehaviour playerMovementScript;
 
-    [Header("Zvuk Vıahu")]
-    public AudioSource audioSource;
-    public AudioClip elevatorSound;
 
-    private void Start()
-    {
-        // Hneï ako sa naèíta scéna, spustíme túto sekvenciu
-        StartCoroutine(ArrivalSequence());
-    }
 
-    private IEnumerator ArrivalSequence()
-    {
-        // 1. ZAMKNUTIE POHYBU HRÁÈA
-        if (playerMovementScript != null)
-            playerMovementScript.enabled = false;
+[Header("Objekty na posunutie (Vï¿½ï¿½ah)")]
 
-        // 2. NASTAVENIE OBRAZOVKY NA ÚPLNE ÈIERNU
-        if (fadeCanvasGroup != null)
-        {
-            fadeCanvasGroup.alpha = 1f;
-            fadeCanvasGroup.gameObject.SetActive(true);
-        }
+public Transform object1ToMove;
 
-        // 3. SPUSTENIE ZVUKU
-        if (audioSource != null && elevatorSound != null)
-        {
-            audioSource.clip = elevatorSound;
-            audioSource.Play();
-        }
+public Transform object2ToMove;
 
-        // Uloenie pozícií pre posun
-        Vector3 startPos1 = object1ToMove.position;
-        Vector3 startPos2 = object2ToMove.position;
 
-        Vector3 targetPos1 = startPos1 + new Vector3(0, posunY, 0);
-        Vector3 targetPos2 = startPos2 + new Vector3(0, posunY, 0);
 
-        float elapsedTime = 0f;
+[Header("Nastavenia pohybu")]
 
-        // 4. SAMOTNÁ ANIMÁCIA POHYBU A ODTMIEVANIA
-        while (elapsedTime < trvaniePohybu)
-        {
-            elapsedTime += Time.deltaTime;
-            float normalizedTime = elapsedTime / trvaniePohybu;
+public float posunY = -3f; // O koï¿½ko sa eï¿½te posunï¿½ pri prï¿½chode (napr. doï¿½liapnutie vï¿½ï¿½ahu)
 
-            // Plynulı posun objektov
-            object1ToMove.position = Vector3.Lerp(startPos1, targetPos1, normalizedTime);
-            object2ToMove.position = Vector3.Lerp(startPos2, targetPos2, normalizedTime);
+public float trvaniePohybu = 2.5f; // Ako dlho bude trvaï¿½ pohyb a zamknutie
 
-            // Zosvet¾ovanie obrazovky (z Alpha 1 na 0)
-            if (fadeCanvasGroup != null && elapsedTime <= casOdtmievania)
-            {
-                float fadeProgress = elapsedTime / casOdtmievania;
-                fadeCanvasGroup.alpha = Mathf.Lerp(1f, 0f, fadeProgress);
-            }
 
-            yield return null;
-        }
 
-        // Uistenie sa, e po skonèení èasu je všetko na správnom mieste
-        object1ToMove.position = targetPos1;
-        object2ToMove.position = targetPos2;
+[Header("Odtmievanie (Fade In)")]
 
-        if (fadeCanvasGroup != null)
-        {
-            fadeCanvasGroup.alpha = 0f;
-            fadeCanvasGroup.gameObject.SetActive(false);
-        }
+[Tooltip("Panel v UI s CanvasGroup, ktorï¿½ bude na zaï¿½iatku ï¿½ierny")]
 
-        // Zastavenie zvuku (aby sa ual presne so skonèením animácie)
-        if (audioSource != null && audioSource.isPlaying)
-            audioSource.Stop();
+public CanvasGroup fadeCanvasGroup;
 
-        // 5. ODOMKNUTIE POHYBU HRÁÈA
-        if (playerMovementScript != null)
-            playerMovementScript.enabled = true;
-    }
+public float casOdtmievania = 1.5f; // Ako rï¿½chlo ï¿½ierna obrazovka zmizne
+
+
+
+[Header("Zvuk Vï¿½ï¿½ahu")]
+
+public AudioSource audioSource;
+
+public AudioClip elevatorSound;
+
+
+
+private void Start()
+
+{
+
+// Hneï¿½ ako sa naï¿½ï¿½ta scï¿½na, spustï¿½me tï¿½to sekvenciu
+
+StartCoroutine(ArrivalSequence());
+
+}
+
+
+
+private IEnumerator ArrivalSequence()
+
+{
+
+// 1. ZAMKNUTIE POHYBU HRï¿½ï¿½A
+
+if (playerMovementScript != null)
+
+playerMovementScript.enabled = false;
+
+
+
+// 2. NASTAVENIE OBRAZOVKY NA ï¿½PLNE ï¿½IERNU
+
+if (fadeCanvasGroup != null)
+
+{
+
+fadeCanvasGroup.alpha = 1f;
+
+fadeCanvasGroup.gameObject.SetActive(true);
+
+}
+
+
+
+// 3. SPUSTENIE ZVUKU
+
+if (audioSource != null && elevatorSound != null)
+
+{
+
+audioSource.clip = elevatorSound;
+
+audioSource.Play();
+
+}
+
+
+
+// Uloï¿½enie pozï¿½ciï¿½ pre posun
+
+Vector3 startPos1 = object1ToMove.position;
+
+Vector3 startPos2 = object2ToMove.position;
+
+
+
+Vector3 targetPos1 = startPos1 + new Vector3(0, posunY, 0);
+
+Vector3 targetPos2 = startPos2 + new Vector3(0, posunY, 0);
+
+
+
+float elapsedTime = 0f;
+
+
+
+// 4. SAMOTNï¿½ ANIMï¿½CIA POHYBU A ODTMIEVANIA
+
+while (elapsedTime < trvaniePohybu)
+
+{
+
+elapsedTime += Time.deltaTime;
+
+float normalizedTime = elapsedTime / trvaniePohybu;
+
+
+
+// Plynulï¿½ posun objektov
+
+object1ToMove.position = Vector3.Lerp(startPos1, targetPos1, normalizedTime);
+
+object2ToMove.position = Vector3.Lerp(startPos2, targetPos2, normalizedTime);
+
+
+
+// Zosvetï¿½ovanie obrazovky (z Alpha 1 na 0)
+
+if (fadeCanvasGroup != null && elapsedTime <= casOdtmievania)
+
+{
+
+float fadeProgress = elapsedTime / casOdtmievania;
+
+fadeCanvasGroup.alpha = Mathf.Lerp(1f, 0f, fadeProgress);
+
+}
+
+
+
+yield return null;
+
+}
+
+
+
+// Uistenie sa, ï¿½e po skonï¿½enï¿½ ï¿½asu je vï¿½etko na sprï¿½vnom mieste
+
+object1ToMove.position = targetPos1;
+
+object2ToMove.position = targetPos2;
+
+
+
+if (fadeCanvasGroup != null)
+
+{
+
+fadeCanvasGroup.alpha = 0f;
+
+fadeCanvasGroup.gameObject.SetActive(false);
+
+}
+
+
+
+// Zastavenie zvuku (aby sa uï¿½al presne so skonï¿½enï¿½m animï¿½cie)
+
+if (audioSource != null && audioSource.isPlaying)
+
+audioSource.Stop();
+
+
+
+// 5. ODOMKNUTIE POHYBU HRï¿½ï¿½A
+
+if (playerMovementScript != null)
+
+playerMovementScript.enabled = true;
+
+}
+
 }
