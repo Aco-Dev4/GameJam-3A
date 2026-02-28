@@ -24,6 +24,10 @@ public class ElevatorTrigger : MonoBehaviour
     public CanvasGroup fadeCanvasGroup;
     public float casStmievania = 1f;
 
+    [Header("Zvuk V˝ùahu")]
+    public AudioSource audioSource; // Komponent Audio Source
+    public AudioClip elevatorSound; // Zvukov˝ s˙bor (napr. v‡zganie)
+
     private bool isPlayerInZone = false;
     private bool isSequenceRunning = false;
 
@@ -49,8 +53,16 @@ public class ElevatorTrigger : MonoBehaviour
     {
         isSequenceRunning = true;
 
+        // Vypnutie pohybu
         if (playerMovementScript != null)
             playerMovementScript.enabled = false;
+
+        // Spustenie zvuku
+        if (audioSource != null && elevatorSound != null)
+        {
+            audioSource.clip = elevatorSound;
+            audioSource.Play();
+        }
 
         Vector3 startPos1 = object1ToMove.position;
         Vector3 startPos2 = object2ToMove.position;
