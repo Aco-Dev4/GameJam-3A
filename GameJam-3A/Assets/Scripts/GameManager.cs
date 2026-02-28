@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
     public int money;
     public int quotaAmount;
     public int quotaTarget;
+
+    private PlayerData playerData;
+
     private void Awake()
     {
         if (manager == null)
