@@ -4,6 +4,10 @@ public class OreHandler : MonoBehaviour
 {
     public OreData oreData;
 
+    public AudioSource audio;
+    public AudioClip hitSound;
+    public AudioClip breakSound;
+
     private float maxScalePercent = 1.0f; // 100%
     private float minScalePercent = 0.7f; // 70%
 
@@ -16,6 +20,7 @@ public class OreHandler : MonoBehaviour
 
     public void HitOre(int damage)
     {
+        audio.PlayOneShot(hitSound);
         currentHealth -= damage;
         // 1. Vypočítame percento zostávajúcich životov (0.0 až 1.0)
         float healthPercent = currentHealth / oreData.maxHealth;
@@ -32,6 +37,7 @@ public class OreHandler : MonoBehaviour
 
     public void Mined()
     {
+        audio.PlayOneShot(breakSound);
         GameManager.manager.AddToQuota(oreData.value);
         GameObject.Destroy(gameObject);
         // Play sound
