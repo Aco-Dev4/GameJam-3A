@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player
   speed: 10
   gravity: -100
-  jumpHeight: 5
+  jumpHeight: 8
   miningSpeed: 1
   lightEmit: 1
   miningCooldown: 1
