@@ -7,17 +7,17 @@ public class Elevator : MonoBehaviour
     float speed;
     public int offset;
     bool moving;
-    public bool goesUp;
+    public bool shop;
     Vector3 newpos;
     void Start()
     {
         speed = 0;
         moving = false;
         newpos = transform.position;
-        if (goesUp)
-            newpos.y += offset;
-        else
+        if (shop)
             newpos.y -= offset;
+        else
+            newpos.y += offset;
     }
     void Update()
     {
@@ -33,12 +33,14 @@ public class Elevator : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             moving = true;
-            Invoke("Transition", 3f);
+            Invoke("Transition", 4f);
         }
     }
     void Transition()
     {
-        // SceneManager.LoadScene(0);
-        // Tu potom pridajte kod pre prechod do novej sceny + animaciu prechodovej obrazovky
+        if (shop)
+            SceneManager.LoadScene("Domby");
+        else
+            SceneManager.LoadScene("Shop");
     }
 }
