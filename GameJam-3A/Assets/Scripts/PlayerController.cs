@@ -78,6 +78,8 @@ public class PlayerController : MonoBehaviour
 
             // Toto určí pauzu medzi údermi (napr. 0.8 sekundy)
             nextMineTime = Time.time + playerData.miningCooldown;
+
+            Debug.Log("Kopeš nepretržite...");
         }
     }
 }
