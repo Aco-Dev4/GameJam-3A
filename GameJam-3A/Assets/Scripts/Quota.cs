@@ -5,7 +5,6 @@ public class Quota : MonoBehaviour
     int quotaAmount;
     int quotaTarget;
     int money;
-
     private void Start()
     {
         quotaAmount = GameManager.manager.quotaAmount;
@@ -24,7 +23,6 @@ public class Quota : MonoBehaviour
                 Debug.Log("Money: " + money);
                 Debug.Log("New quota target: " + quotaTarget);
             }
-            else Debug.Log("Quota not met. Keep mining!");
         }
     }
 }
