@@ -9,3 +9,14 @@
     font-size: 34px;
     -unity-font-style: bold;
 }
+
+.button {
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out-elastic;
+    scale: 1.1 1.1 1.1;
+}

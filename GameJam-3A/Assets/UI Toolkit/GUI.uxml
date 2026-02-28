@@ -1,19 +1,35 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/GUIStyle.uss?fileID=7433441132597879392&amp;guid=ec5d4166785bfe74b8820843d70990c2&amp;type=3#GUIStyle"/>
+    <ui:VisualElement name="TimeContainer" style="flex-grow: 0; position: absolute; top: 32px; left: 1379px; right: -27px; bottom: 928px; flex-direction: row; width: 568px; height: 120px; font-size: 100px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); color: rgb(255, 255, 255);">
+        <ui:Label text="TIME:"/>
+        <ui:Label text="115" name="Time" style="width: 189px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="currentTime" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
     <ui:VisualElement name="Container" style="flex-grow: 1;">
         <ui:VisualElement style="flex-grow: 0; flex-direction: row; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(0, 0, 0); font-size: 20px; -unity-font-style: bold; margin-top: 36px; margin-left: 30px;">
             <ui:Label text="QUOTA:" name="QuotaLabel" class="label"/>
-            <ui:Label text="100" name="QuotaAmount" class="label"/>
+            <ui:Label text="100" name="QuotaAmount" data-source="" class="label">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="quotaAmount" binding-mode="ToTarget" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData"/>
+                </Bindings>
+            </ui:Label>
             <ui:Label text="/" name="" class="label"/>
-            <ui:Label text="9999" name="QuotaTarget" class="label"/>
+            <ui:Label text="9999" name="QuotaTarget" class="label">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="quotaTarget" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
         </ui:VisualElement>
         <ui:VisualElement style="flex-grow: 0; flex-direction: row; -unity-font-style: normal; -unity-text-outline-width: 0; margin-left: 30px;">
             <ui:Label text="$ " name="" class="label" style="color: rgb(254, 255, 0);"/>
-            <ui:Label text="999" name="Cash" class="label" style="color: rgb(254, 255, 0);"/>
+            <ui:Label text="999" name="Cash" class="label" style="color: rgb(254, 255, 0);">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="money" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
         </ui:VisualElement>
-    </ui:VisualElement>
-    <ui:VisualElement style="flex-grow: 0; position: absolute; top: 32px; left: 1379px; right: -27px; bottom: 928px; flex-direction: row; width: 568px; height: 120px; font-size: 100px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); color: rgb(255, 255, 255);">
-        <ui:Label text="TIME:"/>
-        <ui:Label text="115" name="Time" style="width: 189px;"/>
     </ui:VisualElement>
 </ui:UXML>

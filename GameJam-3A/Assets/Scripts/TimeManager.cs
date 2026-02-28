@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class TimerManager : MonoBehaviour
 {
+    [SerializeField] private PlayerData playerData;
     public static TimerManager Instance;
 
     public float CurrentTime;
@@ -42,9 +43,12 @@ public class TimerManager : MonoBehaviour
 
     private void Update()
     {
+        playerData.currentTime = Mathf.RoundToInt(CurrentTime); // Synchronizuj s PlayerData
+
         if (!IsRunning) return;
 
         CurrentTime -= Time.deltaTime;
+
 
         if (CurrentTime <= 0f)
         {

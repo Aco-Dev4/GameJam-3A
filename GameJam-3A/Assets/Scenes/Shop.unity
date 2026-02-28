@@ -2688,6 +2688,8 @@ GameObject:
   m_Component:
   - component: {fileID: 118463842}
   - component: {fileID: 118463841}
+  - component: {fileID: 118463844}
+  - component: {fileID: 118463843}
   m_Layer: 5
   m_Name: Shop
   m_TagString: Untagged
@@ -2702,7 +2704,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118463840}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -2733,6 +2735,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &118463843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118463840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980fae2538853584e9960b067ee4ccc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopManager
+--- !u!114 &118463844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118463840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11bdb8eb0561ad4599f1dd5af78160c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopHandler
 --- !u!1001 &125317652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12726,9 +12752,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33377083e8a3334e9ce541d7adde4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  money: 0
+  quotaTarget: 0
   quotaAmount: 0
-  quotaTarget: 100
+  money: 0
+  drillLevel: 0
+  drillModel: 0
+  drillcost: 0
+  uiData: {fileID: 11400000, guid: ac103367678853148b6c1a98ebb298d4, type: 2}
 --- !u!4 &554624942
 Transform:
   m_ObjectHideFlags: 0
@@ -33442,6 +33472,8 @@ MonoBehaviour:
   indexNovejSceny: 0
   fadeCanvasGroup: {fileID: 852902985}
   casStmievania: 3
+  audioSource: {fileID: 0}
+  elevatorSound: {fileID: 0}
 --- !u!1001 &1446002786
 PrefabInstance:
   m_ObjectHideFlags: 0
