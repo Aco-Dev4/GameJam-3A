@@ -4,14 +4,17 @@ public class OreHandler : MonoBehaviour
 {
     public OreData oreData;
 
-    private float maxScalePercent = 1.0f; // 100%
-    private float minScalePercent = 0.7f; // 70%
+    private float maxScalePercent; // 100%
+    private float minScalePercent; // 70%
 
     public float currentHealth;
 
     void Start()
     {
         currentHealth = oreData.maxHealth;
+
+        maxScalePercent = transform.localScale.x;
+        minScalePercent = maxScalePercent * 0.7f;
     }
 
     public void HitOre(int damage)

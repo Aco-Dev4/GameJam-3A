@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ore
   oreData: {fileID: 11400000, guid: 551ad45185e21d544b40840d9d08cf80, type: 2}
-  currentHealth: 10
+  currentHealth: 0
 --- !u!65 &5037058718068738269
 BoxCollider:
   m_ObjectHideFlags: 0
