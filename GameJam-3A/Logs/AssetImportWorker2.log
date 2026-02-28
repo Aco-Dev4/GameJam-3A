@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Core' Language: 'sk' Physical Memory: 16147 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER" at "2026-02-28T12:23:49.306227Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32556 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre" at "2026-02-28T12:35:27.9117845Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-02-28T12:23:49Z
+Date: 2026-02-28T12:35:27Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -15,23 +15,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/ACER/Desktop/My Projects/GameJam-3A/GameJam-3A
+C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53410
+52691
 -licensingIpc
-LicenseClient-ACER
+LicenseClient-andre
 -job-worker-count
-5
+13
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/ACER/Desktop/My Projects/GameJam-3A/GameJam-3A
-C:/Users/ACER/Desktop/My Projects/GameJam-3A/GameJam-3A
+Successfully changed project path to: C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A
+C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,13 +67,13 @@ C:/Users/ACER/Desktop/My Projects/GameJam-3A/GameJam-3A
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [16872]  Target information:
+Player connection [47696]  Target information:
 
-Player connection [16872]  * "[IP] 10.10.23.39 [Port] 0 [Flags] 2 [Guid] 3121345381 [EditorId] 3121345381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8NN6SAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47696]  * "[IP] 192.168.1.201 [Port] 0 [Flags] 2 [Guid] 953004309 [EditorId] 953004309 [Version] 1048832 [Id] WindowsEditor(7,Jaco) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16872] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16872] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [47696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47696] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,69 +84,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ACER/Desktop/My Projects/GameJam-3A/GameJam-3A/Assets
+[Subsystems] Discovering subsystems at path C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Renderer: NVIDIA GeForce RTX 5080 (ID=0x2c02)
     Vendor:   NVIDIA
-    VRAM:     3937 MB
-    Driver:   32.0.15.8129
+    VRAM:     15977 MB
+    Driver:   32.0.15.9159
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002032 seconds.
-- Loaded All Assemblies, in  0.622 seconds
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              cf5048fbca514a1192caacee02c202e8
-  Correlation Id:          46353b8be1b4c703ac638364e443b366
-  External correlation Id: 1206752427737295329
-  Machine Id:              wb9QO+pSSqmId+UEZU89u5TYM8E=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ACER" (connect: 0.00s, validation: 0.00s, handshake: 1.25s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER-notifications" at "2026-02-28T12:23:50.5581083Z"
-[Licensing::Module] Licensing Background thread has ended after 1.25s
+Registered in 0.001208 seconds.
+- Loaded All Assemblies, in  0.256 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.497 seconds
-Domain Reload Profiling: 1116ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0.296 seconds
+Domain Reload Profiling: 550ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (180ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (287ms)
-				TypeCache.ScanAssembly (265ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (498ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
+		SetupLoadedEditorAssemblies (265ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -155,14 +146,25 @@ Domain Reload Profiling: 1116ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              a6135b925f5d4216b0f8e6c9ce550dac
+  Correlation Id:          f4287e21db5bcc9a06b953521ae3a86d
+  External correlation Id: 7382330635263875416
+  Machine Id:              BBqk9ouc6KwrFMgZ9PyvBKSzdt8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-andre" (connect: 0.00s, validation: 0.00s, handshake: 1.32s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre-notifications" at "2026-02-28T12:35:29.237789Z"
+[Licensing::Module] Licensing Background thread has ended after 1.33s
+[Licensing::Module] Licensing is initialized (took 0.08s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 7972500776501-UnityPersXXXX
+  Id: 7971699078619-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.945 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.595 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -170,356 +172,96 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.941 seconds
-Domain Reload Profiling: 1881ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (608ms)
-		LoadAssemblies (401ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (234ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (230ms)
-				TypeCache.ScanAssembly (210ms)
-			BuildScriptInfoCaches (73ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (942ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (590ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (707ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (422ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6226 unused Assets / (5.3 MB). Loaded Objects now: 7040.
-Memory consumption went from 145.0 MB to 139.6 MB.
-Total: 13.811400 ms (FindLiveObjects: 1.739100 ms CreateObjectMapping: 1.268400 ms MarkObjects: 6.668200 ms  DeleteObjects: 4.134100 ms)
+Unloading 6226 unused Assets / (4.5 MB). Loaded Objects now: 7040.
+Memory consumption went from 152.0 MB to 147.5 MB.
+Total: 6.467600 ms (FindLiveObjects: 0.519500 ms CreateObjectMapping: 0.288400 ms MarkObjects: 4.111800 ms  DeleteObjects: 1.547000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19718.178749 seconds.
-  path: Assets/Sounds/sound2.wav
-  artifactKey: Guid(416d1a877f058ca4ca642e0a50e34d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/sound2.wav using Guid(416d1a877f058ca4ca642e0a50e34d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c87418d3f46614d0a542a9e90d695568') in 0.1040623 seconds
+  Time since last request: 505124.863520 seconds.
+  path: Assets/Models/drill.machine.full.fbx
+  artifactKey: Guid(4f6e775897101934ebaac787bc0538e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/drill.machine.full.fbx using Guid(4f6e775897101934ebaac787bc0538e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79e1ccf3374beab89b5fcfbe42b2e6f8') in 0.1077607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Models/drill.machine.1.fbx
+  artifactKey: Guid(afd37d36f5e6bd6478f59fc99e9bab34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/drill.machine.1.fbx using Guid(afd37d36f5e6bd6478f59fc99e9bab34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '729ffca52c29843d0118b9f82da84aca') in 0.0156833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.118450 seconds.
+  path: Assets/Models/drill.machine.1.fbx
+  artifactKey: Guid(afd37d36f5e6bd6478f59fc99e9bab34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/drill.machine.1.fbx using Guid(afd37d36f5e6bd6478f59fc99e9bab34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6359be57025b0b8c8206a393060a8d8') in 0.414555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/mole Variant 1.mat
+  artifactKey: Guid(e9acccd3127ebf3459ae85b28f1f23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mole Variant 1.mat using Guid(e9acccd3127ebf3459ae85b28f1f23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '755f912d179bfe800e0a26a792c57324') in 0.0215353 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.379947 seconds.
-  path: Assets/SFX
-  artifactKey: Guid(31f1ae516ca2faf4db9fff6e4dda2450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX using Guid(31f1ae516ca2faf4db9fff6e4dda2450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf8f7ef895ef4e0c2092a1c78ca06613') in 0.000888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.975292 seconds.
-  path: Assets/SFX/walk.mp3
-  artifactKey: Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/walk.mp3 using Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34aaaca4bc5a27fd74e2b17a8aa6b042') in 0.016203 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/mole Variant 2.mat
+  artifactKey: Guid(bbf1fc5fec096f54c8c08e71b6effd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mole Variant 2.mat using Guid(bbf1fc5fec096f54c8c08e71b6effd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379541b5da68df680ab5d455d112dd27') in 0.0204428 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.951500 seconds.
-  path: Assets/SFX/walk.mp3
-  artifactKey: Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/walk.mp3 using Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0d83348c63c0e0eeb9bcc75861fbc30') in 0.0973233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/shop.fbx
+  artifactKey: Guid(b199968443104c542b64e83f6f343689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/shop.fbx using Guid(b199968443104c542b64e83f6f343689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2f82026a5aa69d8774027bf0f56b85a') in 0.0539851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.086209 seconds.
-  path: Assets/SFX/pickup.mp3
-  artifactKey: Guid(fd2e89d4bf8702a4f84213838f2ebc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/pickup.mp3 using Guid(fd2e89d4bf8702a4f84213838f2ebc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6c9ad4f0a12ecddb371c34912098eba') in 0.0077299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.984432 seconds.
-  path: Assets/SFX/pickup.mp3
-  artifactKey: Guid(fd2e89d4bf8702a4f84213838f2ebc58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/pickup.mp3 using Guid(fd2e89d4bf8702a4f84213838f2ebc58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2471f78033a047e3226aa3942c42094') in 0.0215229 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.253299 seconds.
-  path: Assets/SFX/sound1.wav
-  artifactKey: Guid(7cd59ed26708ff14fa4652573ce86a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/sound1.wav using Guid(7cd59ed26708ff14fa4652573ce86a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be6a8763f33621f34357c291999541c5') in 0.0073376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.944238 seconds.
-  path: Assets/SFX/sound1.wav
-  artifactKey: Guid(7cd59ed26708ff14fa4652573ce86a0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/sound1.wav using Guid(7cd59ed26708ff14fa4652573ce86a0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67db7bcdb3a97ebb2ebf3f4cd413ebe3') in 0.0287974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.852159 seconds.
-  path: Assets/SFX/sound2.wav
-  artifactKey: Guid(729df0d0443f3da47af4b8d874170279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/sound2.wav using Guid(729df0d0443f3da47af4b8d874170279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dee7207030250b409d0016a3a1aadfc') in 0.0080692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.945390 seconds.
-  path: Assets/SFX/sound2.wav
-  artifactKey: Guid(729df0d0443f3da47af4b8d874170279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/sound2.wav using Guid(729df0d0443f3da47af4b8d874170279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbe32fc8c3a33bf0f60b7879e35a4286') in 0.0284095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.555509 seconds.
-  path: Assets/SFX/notice1.wav
-  artifactKey: Guid(bf5979e43f38bdd4f8ede719954e73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/notice1.wav using Guid(bf5979e43f38bdd4f8ede719954e73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd40ed34ab60d2db16313df3cc086d235') in 0.0075364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.944243 seconds.
-  path: Assets/SFX/notice1.wav
-  artifactKey: Guid(bf5979e43f38bdd4f8ede719954e73c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/notice1.wav using Guid(bf5979e43f38bdd4f8ede719954e73c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fca16cee4ac9e350faf0a0b555cbf355') in 0.0278011 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.077912 seconds.
-  path: Assets/SFX/notice2.wav
-  artifactKey: Guid(6bce2ed2afc5e0f4a9d3e11db9c8f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/notice2.wav using Guid(6bce2ed2afc5e0f4a9d3e11db9c8f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c0d722b63569841256f8e2a08e16566') in 0.0073078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.949085 seconds.
-  path: Assets/SFX/notice2.wav
-  artifactKey: Guid(6bce2ed2afc5e0f4a9d3e11db9c8f1c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/notice2.wav using Guid(6bce2ed2afc5e0f4a9d3e11db9c8f1c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95d41fcb65b4bf5a1a9f4cc8ccd4042a') in 0.0282702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.585427 seconds.
-  path: Assets/SFX/alert.wav
-  artifactKey: Guid(d29c35b40b3074d4f91d38ece83769bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/alert.wav using Guid(d29c35b40b3074d4f91d38ece83769bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a97948e2a5292cb4e54354b7bdabef5') in 0.0087235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.928709 seconds.
-  path: Assets/SFX/alert.wav
-  artifactKey: Guid(d29c35b40b3074d4f91d38ece83769bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/alert.wav using Guid(d29c35b40b3074d4f91d38ece83769bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83c71394fc62d7005ed53aed6fa54c60') in 0.0281477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.929052 seconds.
-  path: Assets/SFX/mine1.mp3
-  artifactKey: Guid(abc36f0b58c5dd449ac1ca5912209096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/mine1.mp3 using Guid(abc36f0b58c5dd449ac1ca5912209096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00d16348b5b31e423ac1597d0849df90') in 0.0162757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.936254 seconds.
-  path: Assets/SFX/mine1.mp3
-  artifactKey: Guid(abc36f0b58c5dd449ac1ca5912209096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/mine1.mp3 using Guid(abc36f0b58c5dd449ac1ca5912209096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8e04d60ac4da292772baf9d47ca2a1e') in 0.0310498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.926921 seconds.
-  path: Assets/SFX/ore1.mp3
-  artifactKey: Guid(686f173605334f948ac03fbf95e9fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/ore1.mp3 using Guid(686f173605334f948ac03fbf95e9fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ecf6ddaf5a0ccf1e38030909ff3f8f9') in 0.0221443 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.057435 seconds.
-  path: Assets/SFX/ore2.mp3
-  artifactKey: Guid(089ebed8318784a4baf4de42228b0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/ore2.mp3 using Guid(089ebed8318784a4baf4de42228b0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '177da2549ec15042cfe0044206a9c356') in 0.0145236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.033820 seconds.
-  path: Assets/SFX/ore1.mp3
-  artifactKey: Guid(686f173605334f948ac03fbf95e9fbb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/ore1.mp3 using Guid(686f173605334f948ac03fbf95e9fbb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90c50eb0e6baba19f4025f24e97188d9') in 0.0401576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.340754 seconds.
-  path: Assets/SFX/ore3.mp3
-  artifactKey: Guid(59483f281930b9647862a86e7bc5b3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/ore3.mp3 using Guid(59483f281930b9647862a86e7bc5b3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6da45dce94fda175af1ae5ddd4f72658') in 0.0157614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.935131 seconds.
-  path: Assets/SFX/ore3.mp3
-  artifactKey: Guid(59483f281930b9647862a86e7bc5b3f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/ore3.mp3 using Guid(59483f281930b9647862a86e7bc5b3f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21c9f8ed57a156c3de9d11076546b78e') in 0.0337914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.075544 seconds.
-  path: Assets/SFX/repair1.mp3
-  artifactKey: Guid(1a31145f080227f4ab409e51c7d0ec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/repair1.mp3 using Guid(1a31145f080227f4ab409e51c7d0ec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be1e61d3217271e6b8e7c1d5bc8b421a') in 0.018408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.931355 seconds.
-  path: Assets/SFX/repair1.mp3
-  artifactKey: Guid(1a31145f080227f4ab409e51c7d0ec97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/repair1.mp3 using Guid(1a31145f080227f4ab409e51c7d0ec97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3603e09799ec17125ca376118a8842de') in 0.0290363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.135424 seconds.
-  path: Assets/SFX/repair2.mp3
-  artifactKey: Guid(8eda6343a2882414096b9cb24809ef7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/repair2.mp3 using Guid(8eda6343a2882414096b9cb24809ef7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b613fea8e5e1e23795d2052661e19db') in 0.018375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.294992 seconds.
-  path: Assets/SFX/machine.mp3
-  artifactKey: Guid(e3e587d0db64b0949b8f57144fabf281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/machine.mp3 using Guid(e3e587d0db64b0949b8f57144fabf281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71dd8c78feba023362b3f7022148cd8a') in 0.0153539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.972391 seconds.
-  path: Assets/SFX/repair2.mp3
-  artifactKey: Guid(8eda6343a2882414096b9cb24809ef7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/repair2.mp3 using Guid(8eda6343a2882414096b9cb24809ef7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17897f6c9deee228c214bacc47e9f527') in 0.0310685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086994 seconds.
-  path: Assets/SFX/hurt.wav
-  artifactKey: Guid(3be259a2b25f046479451b07bc51fde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/hurt.wav using Guid(3be259a2b25f046479451b07bc51fde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd05555a5a62817dda91b348928333f1b') in 0.0160603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.985514 seconds.
-  path: Assets/SFX/hurt.wav
-  artifactKey: Guid(3be259a2b25f046479451b07bc51fde3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/hurt.wav using Guid(3be259a2b25f046479451b07bc51fde3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16f8b355fea7889e15da947389676f9c') in 0.028575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.505039 seconds.
-  path: Assets/SFX/jump1.wav
-  artifactKey: Guid(03cfb9d4350ccd64fb58fe1d0e60af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/jump1.wav using Guid(03cfb9d4350ccd64fb58fe1d0e60af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece7737cf45a65bf546068b3ca9fe003') in 0.0150786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.947037 seconds.
-  path: Assets/SFX/jump1.wav
-  artifactKey: Guid(03cfb9d4350ccd64fb58fe1d0e60af76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/jump1.wav using Guid(03cfb9d4350ccd64fb58fe1d0e60af76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f53ce25b5777cd81e4079a4cc9677291') in 0.0223478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093707 seconds.
-  path: Assets/SFX/jump2.wav
-  artifactKey: Guid(274d22000b9702f43ab619466e126487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/jump2.wav using Guid(274d22000b9702f43ab619466e126487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ac33a172d5fdaa8ee3fce6d2b6d7cdd') in 0.015444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.347641 seconds.
-  path: Assets/SFX/jump2.wav
-  artifactKey: Guid(274d22000b9702f43ab619466e126487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/jump2.wav using Guid(274d22000b9702f43ab619466e126487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01fcd0f9cbe3d8d6c6ea31d0ab489772') in 0.0200589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 168.260150 seconds.
-  path: Assets/SFX/hurt.mp3
-  artifactKey: Guid(4f06d17705fe1b54d8413599f349aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/hurt.mp3 using Guid(4f06d17705fe1b54d8413599f349aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c05cd261d84bea3a94ccf3aabf68b8a') in 0.0165973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SFX/jump2.mp3
-  artifactKey: Guid(58b2a949f5d3c7540bcaa2efb2bd3206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/jump2.mp3 using Guid(58b2a949f5d3c7540bcaa2efb2bd3206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7811433ac3ae2c0447c291844cf586d8') in 0.0190234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.873106 seconds.
-  path: Assets/SFX/jump2.mp3
-  artifactKey: Guid(58b2a949f5d3c7540bcaa2efb2bd3206) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/jump2.mp3 using Guid(58b2a949f5d3c7540bcaa2efb2bd3206) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caa045f0c361ab62cd64e8d6fe3e2715') in 0.0246009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.403963 seconds.
-  path: Assets/SFX/walk.mp3
-  artifactKey: Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/walk.mp3 using Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fdc12acb7e8a0bc5bd3e58f8075d8b8') in 0.0144179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.248284 seconds.
-  path: Assets/SFX/walk.mp3
-  artifactKey: Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/SFX/walk.mp3 using Guid(2a64efaf3cf028d4f813940ccbadd7de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08fe4b665b643e6cec36694820336743') in 0.0210649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
