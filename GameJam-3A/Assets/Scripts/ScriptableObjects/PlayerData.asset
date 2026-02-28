@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee228267ebd291489cd22654147f73c, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  speed: 5
+  speed: 10
   gravity: -100
-  jumpHeight: 2
+  jumpHeight: 5
   miningSpeed: 1
   lightEmit: 1
   miningCooldown: 1

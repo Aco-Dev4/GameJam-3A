@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1566205460707912188}
   m_Layer: 0
   m_Name: Diamond
-  m_TagString: Untagged
+  m_TagString: Ore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,8 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ore
   oreData: {fileID: 11400000, guid: d005c47c27049d4408253a5080ceb004, type: 2}
-  maxScalePercent: 1
-  minScalePercent: 0.5
   currentHealth: 0
 --- !u!65 &1566205460707912188
 BoxCollider:
