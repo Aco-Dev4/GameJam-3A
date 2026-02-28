@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 232
+  controlID: 275
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 270
+  controlID: 274
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -658,7 +658,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sounds
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -668,18 +668,18 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sounds
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\ACER\Desktop\My Projects\GameJam-3A\GameJam-3A
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 43}
     m_SelectedIDs:
-    - m_Data: 46748
+    - m_Data: 46322
     m_LastClickedID:
-      m_Data: 46748
+      m_Data: 46322
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 46178
@@ -749,8 +749,8 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Sounds
+      m_OriginalName: Sounds
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -758,10 +758,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 46322
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 2}
@@ -1334,9 +1334,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 15.585796, y: -0.7966685, z: 8.214411}
+    m_Target: {x: 3.715848, y: 0.16207957, z: 16.860054}
     speed: 2
-    m_Value: {x: 15.585796, y: -0.7966685, z: 8.214411}
+    m_Value: {x: 3.715848, y: 0.16207957, z: 16.860054}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1382,9 +1382,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03227009, y: 0.48041874, z: -0.017691946, w: 0.8762797}
+    m_Target: {x: 0.012709495, y: 0.12466318, z: -0.0015964593, w: 0.992128}
     speed: 2
-    m_Value: {x: 0.032269724, y: 0.4804133, z: -0.017691744, w: 0.8762698}
+    m_Value: {x: 0.01270694, y: 0.12614979, z: -0.0016155032, w: 0.9919286}
   m_Size:
     m_Target: 10
     speed: 2
