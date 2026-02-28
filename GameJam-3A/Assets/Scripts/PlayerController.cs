@@ -11,6 +11,11 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
     private float nextMineTime = 0f;
 
+    bool moving;
+
+    public AudioSource walkAudio;
+    public AudioSource jumpAudio;
+
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction mineAction;
@@ -36,7 +41,7 @@ public class PlayerController : MonoBehaviour
         // Smer pohybu (globálny)
         Vector3 moveDirection = new Vector3(playerMove.x, 0).normalized;
         Vector3 horizontalMove = moveDirection * playerData.speed;
-
+        
         // 1. Plynulé otáčanie TVÁROU ku kamere
         if (moveDirection.magnitude > 0.1f)
         {
@@ -46,11 +51,28 @@ public class PlayerController : MonoBehaviour
 
             float rotationSpeed = 15f; // Rýchlosť otáčania
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+
+            // Zvuk kroku
+            if (!walkAudio.isPlaying)
+            {
+                walkAudio.loop = true;
+                walkAudio.Play();
+            }
+
+            moving = true;
+        }
+        else
+        {
+            if (walkAudio.isPlaying)
+                walkAudio.Stop();
+
+            moving = false;
         }
 
         // --- Zvyšok tvojho kódu (Skok a Gravitácia) ---
         if (controller.isGrounded && jumpAction.triggered)
         {
+            jumpAudio.Play();
             velocity.y = Mathf.Sqrt(playerData.jumpHeight * -2f * playerData.gravity);
             animator.SetBool("isJumping", true);
         }
