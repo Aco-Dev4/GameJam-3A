@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bd363f1b1a11be46984f945605c6d15, type: 3}
-  m_Name: Diamond
+  m_Name: Iron
   m_EditorClassIdentifier: Assembly-CSharp::OreData
-  value: 100
-  maxHealth: 50
+  value: 35
+  maxHealth: 20
