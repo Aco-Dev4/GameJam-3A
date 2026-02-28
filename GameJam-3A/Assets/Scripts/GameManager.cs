@@ -3,11 +3,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager manager;
+    public int value;
     public int money;
-    public int quotaAmount;
-    public int quotaTarget;
-
-    private PlayerData playerData;
+    public int drillLevel;
+    public int drillModel;
+    public int drillcost;
 
     private void Awake()
     {
@@ -21,6 +21,18 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void AddValue(int amount)
+    {
+        value += amount;
+    }
+    public void SubtractValue(int amount)
+    {
+        value -= amount;
+    }
+    public void ResetValue()
+    {
+        value = 0;
+    }
     public void AddMoney(int amount)
     {
         money += amount;
@@ -33,20 +45,16 @@ public class GameManager : MonoBehaviour
     {
         money = 0;
     }
-    public void AddToQuota(int amount)
+    public void IncreaseDrillLevel()
     {
-        quotaAmount += amount;
+        drillLevel++;
     }
-    public void ResetQuota()
+    public void UpgradeModel()
     {
-        quotaAmount = 0;
+        drillModel++;
     }
-    public void SetQuotaTarget(int amount)
+    public void IncreaseDrillCost(int amount)
     {
-        quotaTarget = amount;
-    }
-    public void IncreaseQuotaTarget(int amount)
-    {
-        quotaTarget += amount;
+        drillcost += amount;
     }
 }
