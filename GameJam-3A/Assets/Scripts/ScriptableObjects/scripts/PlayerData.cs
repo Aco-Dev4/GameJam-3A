@@ -11,4 +11,5 @@ public class PlayerData : ScriptableObject
     [Header("Mining")]
     public float miningSpeed = 1f;
     public float lightEmit = 1f;
+    public float miningCooldown = 1.0f; // Ako dlho trvá jeden úder
 }
