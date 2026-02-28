@@ -2,30 +2,24 @@ using UnityEngine;
 
 public class Quota : MonoBehaviour
 {
-    public int quotaAmount;
-    public int quotaTarget;
-    int adder;
+    int quotaAmount;
+    int quotaTarget;
     int money;
-
-    void Start()
+    private void Start()
     {
-        quotaAmount = 0;
-        money = 0;
-        adder = 50;
+        quotaAmount = GameManager.manager.quotaAmount;
+        quotaTarget = GameManager.manager.quotaTarget;
+        money = GameManager.manager.money;
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-            quotaAmount += 10; // Simulate mining ore and adding to quota
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (quotaAmount >= quotaTarget)
             {
                 Debug.Log("Quota met!");
-                money += (quotaAmount - quotaTarget);
-                quotaTarget += adder;
-                adder += 50;
-                quotaAmount = 0;
+                GameManager.manager.AddMoney(quotaAmount - quotaTarget);
+                GameManager.manager.ResetQuota();
                 Debug.Log("Money: " + money);
                 Debug.Log("New quota target: " + quotaTarget);
             }

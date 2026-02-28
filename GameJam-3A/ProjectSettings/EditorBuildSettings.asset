@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Domby.unity
     guid: 8d8f9a096b0e3984a9be4d6258dc8c54
   - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 834893914d4bd3347bbab6394b7ef5fa
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
