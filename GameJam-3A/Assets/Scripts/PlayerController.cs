@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
+    private ShopHandler _shopHandler;
 
     [SerializeField] private Animator animator;
     private CharacterController controller;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        _shopHandler = GetComponent<ShopHandler>();
         controller = GetComponent<CharacterController>();
         
         moveAction = InputSystem.actions.FindAction("Move");
@@ -31,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (_shopHandler._shopOpen) return;
         Movement();
         Mining();
     }
