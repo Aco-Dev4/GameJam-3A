@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class SpikeDeath : MonoBehaviour
 {
-    // GameManager u h¾ada nemusíme cez Find, pouijeme tvoj Singleton "manager"
+    // GameManager uï¿½ hï¿½adaï¿½ nemusï¿½me cez Find, pouï¿½ijeme tvoj Singleton "manager"
 
     [Header("UI Prvky")]
     public MonoBehaviour playerMovementScript;
@@ -20,7 +20,7 @@ public class SpikeDeath : MonoBehaviour
 
     private bool isTriggered = false;
 
-    // OnTriggerEnter musí by samostatne, nie v Start()!
+    // OnTriggerEnter musï¿½ byï¿½ samostatne, nie v Start()!
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !isTriggered)
@@ -28,21 +28,21 @@ public class SpikeDeath : MonoBehaviour
             isTriggered = true;
 
             // LOGIKA PRE PENIAZE:
-            // Ak stratíš 70%, znamená to, e ti zostane 30% (pôvodná hodnota * 0.3)
-            // (int) tam dávame preto, lebo peniaze sú celé èísla a 0.3f je desatinné
-            GameManager.manager.money = (int)(GameManager.manager.money * 0.3f);
+            // Ak stratï¿½ 70%, znamenï¿½ to, ï¿½e ti zostane 30% (pï¿½vodnï¿½ hodnota * 0.3)
+            // (int) tam dï¿½vame preto, lebo peniaze sï¿½ celï¿½ ï¿½ï¿½sla a 0.3f je desatinnï¿½
+            GameManager.Instance.money = (int)(GameManager.Instance.money * 0.3f);
 
-            // Hneï aktualizujeme UI, aby hráè videl tú stratu
-            GameManager.manager.SyncUI();
+            // Hneï¿½ aktualizujeme UI, aby hrï¿½ï¿½ videl tï¿½ stratu
+            GameManager.Instance.SyncUI();
 
             StartCoroutine(SpikeSequence());
         }
     }
 
-    // Coroutine musí by tie samostatne
+    // Coroutine musï¿½ byï¿½ tieï¿½ samostatne
     IEnumerator SpikeSequence()
     {
-        // 1. ZASTAVÍME HRÁÈA
+        // 1. ZASTAVï¿½ME HRï¿½ï¿½A
         if (playerMovementScript != null)
             playerMovementScript.enabled = false;
 
@@ -64,7 +64,7 @@ public class SpikeDeath : MonoBehaviour
         if (deathText != null)
             deathText.SetActive(true);
 
-        // 4. PAUZA A NOVÁ SCÉNA
+        // 4. PAUZA A NOVï¿½ SCï¿½NA
         yield return new WaitForSeconds(waitBeforeLoad);
         SceneManager.LoadScene(sceneIndexToLoad);
     }

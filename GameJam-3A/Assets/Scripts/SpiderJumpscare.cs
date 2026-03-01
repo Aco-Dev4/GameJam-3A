@@ -4,13 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class SpiderJumpscare : MonoBehaviour
 {
-    [Header("Objekty v scéne")]
+    [Header("Objekty v scï¿½ne")]
     public Transform spider;
     public MonoBehaviour playerMovementScript;
     public CanvasGroup fadeCanvasGroup;
     public GameObject scareText;
 
-    [Header("Nastavenia Scény")]
+    [Header("Nastavenia Scï¿½ny")]
     public AudioSource audioSource;
     public AudioClip hit;
     public int sceneIndexToLoad;
@@ -28,11 +28,11 @@ public class SpiderJumpscare : MonoBehaviour
         {
             isTriggered = true;
 
-            // LOGIKA PRE PENIAZE (Strata 70%, zostáva 30%)
-            if (GameManager.manager != null)
+            // LOGIKA PRE PENIAZE (Strata 70%, zostï¿½va 30%)
+            if (GameManager.Instance != null)
             {
-                GameManager.manager.money = (int)(GameManager.manager.money * 0.3f);
-                GameManager.manager.SyncUI(); // Okamžitá aktualizácia UI
+                GameManager.Instance.money = (int)(GameManager.Instance.money * 0.3f);
+                GameManager.Instance.SyncUI(); // Okamï¿½itï¿½ aktualizï¿½cia UI
             }
 
             StartCoroutine(JumpscareSequence(other.transform));
@@ -41,11 +41,11 @@ public class SpiderJumpscare : MonoBehaviour
 
     IEnumerator JumpscareSequence(Transform playerTransform)
     {
-        // 1. VYPÍNAME MOVEMENT
+        // 1. VYPï¿½NAME MOVEMENT
         if (playerMovementScript != null)
             playerMovementScript.enabled = false;
 
-        // 2. SKOK PAVÚKA
+        // 2. SKOK PAVï¿½KA
         audioSource.PlayOneShot(hit);
         Vector3 startPos = spider.position;
         float elapsed = 0f;
@@ -75,10 +75,10 @@ public class SpiderJumpscare : MonoBehaviour
         if (scareText != null)
             scareText.SetActive(true);
 
-        // Poèkáme, kým uplynie celkový èas
+        // Poï¿½kï¿½me, kï¿½m uplynie celkovï¿½ ï¿½as
         yield return new WaitForSeconds(totalWaitTime - jumpDuration - fadeDuration);
 
-        // 5. NAÈÍTANIE NOVEJ SCÉNY
+        // 5. NAï¿½ï¿½TANIE NOVEJ SCï¿½NY
         SceneManager.LoadScene(sceneIndexToLoad);
     }
 }

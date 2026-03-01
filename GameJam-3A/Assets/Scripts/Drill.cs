@@ -13,11 +13,9 @@ public class Drill : MonoBehaviour
     public string playerTag = "Player";
     void Start()
     {
-        drill_level = GameManager.manager.drillLevel;
-        drill_model = GameManager.manager.drillModel;
+        drill_level = GameManager.Instance.drillLevel;
+        drill_model = GameManager.Instance.drillModel;
         GameObject drill = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
-        if (drill_model != 0 )
-            drill.transform.localScale *= scale;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -34,13 +32,13 @@ public class Drill : MonoBehaviour
     {
         if (isPlayerInZone && Input.GetKeyDown(KeyCode.E))
         {
-            int amountNeeded = GameManager.manager.quotaTarget - GameManager.manager.quotaAmount;
-            int transfer = Mathf.Min(GameManager.manager.money, amountNeeded);
-            GameManager.manager.AddValue(transfer);
-            GameManager.manager.AddMoney(-transfer);
-            if (GameManager.manager.quotaAmount == GameManager.manager.quotaTarget)
+            int amountNeeded = GameManager.Instance.quotaTarget - GameManager.Instance.quotaAmount;
+            int transfer = Mathf.Min(GameManager.Instance.money, amountNeeded);
+            GameManager.Instance.AddValue(transfer);
+            GameManager.Instance.AddMoney(-transfer);
+            if (GameManager.Instance.quotaAmount == GameManager.Instance.quotaTarget)
             {
-                GameManager.manager.ResetValue();
+                GameManager.Instance.ResetValue();
                 UpgradeDrill();
             }
         }
@@ -49,13 +47,13 @@ public class Drill : MonoBehaviour
     {
         audioS.PlayOneShot(repair);
         drill_level++;
-        GameManager.manager.IncreaseDrillLevel();
+        GameManager.Instance.IncreaseDrillLevel();
         switch (drill_level)
         {
             case 1:
                 TimerManager.Instance.StartTimer(180);
-                GameManager.manager.IncreaseTarget(150);
-                GameManager.manager.UpgradeModel();
+                GameManager.Instance.IncreaseTarget(150);
+                GameManager.Instance.UpgradeModel();
                 drill_model++;
                 Destroy(transform.GetChild(0).gameObject);
                 GameObject drill1 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
@@ -63,12 +61,12 @@ public class Drill : MonoBehaviour
                 break;
             case 2:
                 TimerManager.Instance.AddTime(120);
-                GameManager.manager.IncreaseTarget(150);
+                GameManager.Instance.IncreaseTarget(150);
                 break;
             case 3:
                 TimerManager.Instance.AddTime(150);
-                GameManager.manager.IncreaseTarget(200);
-                GameManager.manager.UpgradeModel();
+                GameManager.Instance.IncreaseTarget(200);
+                GameManager.Instance.UpgradeModel();
                 drill_model++;
                 Destroy(transform.GetChild(0).gameObject);
                 GameObject drill2 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
@@ -76,12 +74,12 @@ public class Drill : MonoBehaviour
                 break;
             case 4:
                 TimerManager.Instance.AddTime(200);
-                GameManager.manager.IncreaseTarget(300);
+                GameManager.Instance.IncreaseTarget(300);
                 break;
             case 5:
                 TimerManager.Instance.AddTime(250);
-                GameManager.manager.IncreaseTarget(500);
-                GameManager.manager.UpgradeModel();
+                GameManager.Instance.IncreaseTarget(500);
+                GameManager.Instance.UpgradeModel();
                 drill_model++;
                 Destroy(transform.GetChild(0).gameObject);
                 GameObject drill3 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);

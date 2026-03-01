@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager manager;
+    public static GameManager Instance { get; private set; }
 
     [Header("Game Stats")]
     public int quotaTarget;
@@ -27,18 +27,13 @@ public class GameManager : MonoBehaviour
         SyncUI();
     }
 
-    private void Awake()
+    void Awake()
     {
-        if (manager == null)
-        {
-            manager = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
+
     public void AddValue(int amount)
     {
         quotaAmount += amount;
