@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private InputAction jumpAction;
     private InputAction mineAction;
 
+    bool actuallyminingrightnowatthemoment = false;
+
     void Start()
     {
         _shopHandler = GetComponent<ShopHandler>();
@@ -73,6 +75,7 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
+        if (actuallyminingrightnowatthemoment) return;
         /*
         Vector2 playerMove = moveAction.ReadValue<Vector2>();
 
@@ -190,14 +193,19 @@ public class PlayerController : MonoBehaviour
     }
 
     void Mining()
+{
+    if (mineAction.IsPressed() && Time.time >= nextMineTime)
     {
-        // .IsPressed() vráti true po celú dobu, čo držíš ľavé tlačidlo
-        if (mineAction.IsPressed() && Time.time >= nextMineTime)
-        {
-            animator.SetTrigger("Mine");
+        actuallyminingrightnowatthemoment = true;
 
-            // Toto určí pauzu medzi údermi (napr. 0.8 sekundy)
-            nextMineTime = Time.time + playerData.miningCooldown;
-        }
+        animator.SetTrigger("Mine");
+
+        nextMineTime = Time.time + playerData.miningCooldown;
     }
+
+    if (actuallyminingrightnowatthemoment && Time.time >= nextMineTime)
+    {
+        actuallyminingrightnowatthemoment = false;
+    }
+}
 }

@@ -19,7 +19,7 @@ MonoBehaviour:
   lightEmit: 1
   miningCooldown: 1
   currentTime: 0
-  money: 50
+  money: 15020
   quotaTarget: 0
   quotaAmount: 0
   pickaxeLevel: 1
