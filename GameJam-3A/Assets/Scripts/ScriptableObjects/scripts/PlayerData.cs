@@ -20,6 +20,12 @@ public class PlayerData : ScriptableObject
     public int money;
     public int quotaTarget;
     public int quotaAmount;
+
+    [Header("Upgrades")]
+    public int pickaxeLevel = 1;
+    public int bootLevel = 1;
+    public int machineTimeLevel = 1;
+
     // UI Toolkit môže sledovať zmeny cez delegáty alebo jednoduchý refresh
     public System.Action OnDataChanged;
 

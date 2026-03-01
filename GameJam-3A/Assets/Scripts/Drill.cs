@@ -4,16 +4,18 @@ public class Drill : MonoBehaviour
 {
     public GameObject[] drill_models;
     public AudioSource audioS;
-    public AudioClip too_poor;
     public AudioClip repair;
     public AudioClip finish;
+    public float scale;
     int drill_level;
+    int drill_model;
     bool isPlayerInZone = false;
     public string playerTag = "Player";
     void Start()
     {
         drill_level = GameManager.manager.drillLevel;
-        GameObject drill = Instantiate(drill_models[drill_level], transform.position, transform.rotation, transform);
+        drill_model = GameManager.manager.drillModel;
+        GameObject drill = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -30,13 +32,15 @@ public class Drill : MonoBehaviour
     {
         if (isPlayerInZone && Input.GetKeyDown(KeyCode.E))
         {
-            if (GameManager.manager.money >= GameManager.manager.drillcost)
+            int amountNeeded = GameManager.manager.quotaTarget - GameManager.manager.quotaAmount;
+            int transfer = Mathf.Min(GameManager.manager.money, amountNeeded);
+            GameManager.manager.AddValue(transfer);
+            GameManager.manager.AddMoney(-transfer);
+            if (GameManager.manager.quotaAmount == GameManager.manager.quotaTarget)
             {
-                GameManager.manager.SubtractMoney(GameManager.manager.drillcost);
+                GameManager.manager.ResetValue();
                 UpgradeDrill();
             }
-            else
-                audioS.PlayOneShot(too_poor);
         }
     }
     public void UpgradeDrill()
@@ -47,28 +51,34 @@ public class Drill : MonoBehaviour
         switch (drill_level)
         {
             case 1:
-                GameManager.manager.IncreaseDrillCost(150);
+                GameManager.manager.IncreaseTarget(150);
                 GameManager.manager.UpgradeModel();
+                drill_model++;
                 Destroy(transform.GetChild(0).gameObject);
-                GameObject drill1 = Instantiate(drill_models[drill_level], transform.position, Quaternion.identity, transform);
+                GameObject drill1 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
+                drill1.transform.localScale *= scale;
                 break;
             case 2:
-                GameManager.manager.IncreaseDrillCost(150);
+                GameManager.manager.IncreaseTarget(150);
                 break;
             case 3:
-                GameManager.manager.IncreaseDrillCost(200);
+                GameManager.manager.IncreaseTarget(200);
                 GameManager.manager.UpgradeModel();
+                drill_model++;
                 Destroy(transform.GetChild(0).gameObject);
-                GameObject drill2 = Instantiate(drill_models[drill_level], transform.position, Quaternion.identity, transform);
+                GameObject drill2 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
+                drill2.transform.localScale *= scale;
                 break;
             case 4:
-                GameManager.manager.IncreaseDrillCost(300);
+                GameManager.manager.IncreaseTarget(300);
                 break;
             case 5:
-                GameManager.manager.IncreaseDrillCost(500);
+                GameManager.manager.IncreaseTarget(500);
                 GameManager.manager.UpgradeModel();
+                drill_model++;
                 Destroy(transform.GetChild(0).gameObject);
-                GameObject drill3 = Instantiate(drill_models[drill_level], transform.position, Quaternion.identity, transform);
+                GameObject drill3 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
+                drill3.transform.localScale *= scale;
                 break;
             default:
                 audioS.PlayOneShot(finish);

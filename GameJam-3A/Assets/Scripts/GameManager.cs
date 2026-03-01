@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
     [Header("Drill")]
     public int drillLevel;
     public int drillModel;
-    public int drillcost;
 
     public PlayerData uiData; // Priraď v Inspectore
 
@@ -20,6 +19,11 @@ public class GameManager : MonoBehaviour
     public void SyncUI()
     {
         if (uiData != null) uiData.UpdateValues(money, quotaTarget, quotaAmount);
+    }
+
+    void Update()
+    {
+        SyncUI();
     }
 
     private void Awake()
@@ -38,9 +42,29 @@ public class GameManager : MonoBehaviour
     {
         quotaAmount += amount;
     }
+    public void ResetValue()
+    {
+        quotaAmount = 0;
+    }
+    public void AddMoney(int amount)
+    {
+        money += amount;
+    }
+    public void IncreaseTarget(int amount)
+    {
+        quotaTarget += amount;
+    }
+    public void ResetTarget()
+    {
+        quotaTarget = 200;
+    }
     public void SubtractMoney(int amount)
     {
         money -= amount;
+    }
+    public void ResetMoney()
+    {
+        money = 0;
     }
     public void IncreaseDrillLevel()
     {
@@ -49,9 +73,5 @@ public class GameManager : MonoBehaviour
     public void UpgradeModel()
     {
         drillModel++;
-    }
-    public void IncreaseDrillCost(int amount)
-    {
-        drillcost += amount;
     }
 }
