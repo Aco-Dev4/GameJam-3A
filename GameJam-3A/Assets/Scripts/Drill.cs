@@ -16,6 +16,8 @@ public class Drill : MonoBehaviour
         drill_level = GameManager.manager.drillLevel;
         drill_model = GameManager.manager.drillModel;
         GameObject drill = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
+        if (drill_model != 0 )
+            drill.transform.localScale *= scale;
     }
     private void OnTriggerEnter(Collider other)
     {
