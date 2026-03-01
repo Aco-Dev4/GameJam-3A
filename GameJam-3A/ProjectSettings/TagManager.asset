@@ -7,6 +7,8 @@ TagManager:
   - Pickaxe
   - Ore
   - Shop
+  - Elevator
+  - Drill
   layers:
   - Default
   - TransparentFX

@@ -24,7 +24,7 @@ public class ShopManager : MonoBehaviour
 
     void Awake()
     {
-        if (manager == null) manager = FindFirstObjectByType<GameManager>();
+        manager = GameManager.Instance;
         if (playerController == null) playerController = FindFirstObjectByType<PlayerController>();
         if (playerController != null) playerData = playerController.playerData;
 
