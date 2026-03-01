@@ -11,6 +11,8 @@ public class SpiderJumpscare : MonoBehaviour
     public GameObject scareText;
 
     [Header("Nastavenia Scény")]
+    public AudioSource audioSource;
+    public AudioClip hit;
     public int sceneIndexToLoad;
     public float jumpHeight = 2f;
 
@@ -44,6 +46,7 @@ public class SpiderJumpscare : MonoBehaviour
             playerMovementScript.enabled = false;
 
         // 2. SKOK PAVÚKA
+        audioSource.PlayOneShot(hit);
         Vector3 startPos = spider.position;
         float elapsed = 0f;
         while (elapsed < jumpDuration)

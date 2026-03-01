@@ -179,15 +179,6 @@ fadeCanvasGroup.gameObject.SetActive(false);
 }
 
 
-
-// Zastavenie zvuku (aby sa u�al presne so skon�en�m anim�cie)
-
-if (audioSource != null && audioSource.isPlaying)
-
-audioSource.Stop();
-
-
-
 // 5. ODOMKNUTIE POHYBU HR��A
 
 if (playerMovementScript != null)

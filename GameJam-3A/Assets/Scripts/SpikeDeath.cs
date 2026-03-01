@@ -12,6 +12,8 @@ public class SpikeDeath : MonoBehaviour
     public GameObject deathText;
 
     [Header("Nastavenia")]
+    public AudioSource audioSource;
+    public AudioClip hit;
     public int sceneIndexToLoad;
     public float waitBeforeLoad = 3f;
     public float fadeDuration = 1f;
@@ -45,6 +47,7 @@ public class SpikeDeath : MonoBehaviour
             playerMovementScript.enabled = false;
 
         // 2. STMAVNUTIE
+        audioSource.PlayOneShot(hit);
         float elapsed = 0f;
         if (fadeCanvasGroup != null)
         {

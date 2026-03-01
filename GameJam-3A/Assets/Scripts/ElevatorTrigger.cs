@@ -30,7 +30,7 @@ public class ElevatorTrigger : MonoBehaviour
 
     public float posunY = -5f;
 
-    public float trvaniePohybu = 3f;
+    public float trvaniePohybu = 5f;
 
 
 
@@ -46,7 +46,7 @@ public class ElevatorTrigger : MonoBehaviour
 
     public CanvasGroup fadeCanvasGroup;
 
-    public float casStmievania = 1f;
+    public float casStmievania = 2f;
 
 
 
