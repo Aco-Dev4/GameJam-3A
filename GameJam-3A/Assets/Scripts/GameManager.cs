@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
         if (uiData != null) uiData.UpdateValues(money, quotaTarget, quotaAmount);
     }
 
+    void Update()
+    {
+        SyncUI();
+    }
+
     private void Awake()
     {
         if (manager == null)

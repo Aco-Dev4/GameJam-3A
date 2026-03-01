@@ -18,3 +18,10 @@ MonoBehaviour:
   miningSpeed: 1
   lightEmit: 1
   miningCooldown: 1
+  currentTime: 0
+  money: 50
+  quotaTarget: 0
+  quotaAmount: 0
+  pickaxeLevel: 1
+  bootLevel: 1
+  machineTimeLevel: 1

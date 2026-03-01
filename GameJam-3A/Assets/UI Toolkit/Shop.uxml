@@ -1,5 +1,5 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/ShopStyle.uss?fileID=7433441132597879392&amp;guid=9ba7c7d162c7f234b8745e971153a8c0&amp;type=3#ShopStyle"/>
+    <Style src="project://database/Assets/UI%20Toolkit/ShopStyle.uss?fileID=7433441132597879392&amp;guid=9ba7c7d162c7f234b8745e971153a8c0&amp;type=3"/>
     <ui:VisualElement name="ShopRoot" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.31);">
         <ui:VisualElement style="flex-grow: 0; align-self: center; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Textures/sign.png?fileID=21300000&amp;guid=f530c417de7e46a4ea0dc716cfbe74b6&amp;type=3#sign&quot;); width: 541px; height: 339px; background-size: contain; justify-content: center; position: absolute; top: -29px; left: 684px;">
             <ui:Label text="SHOP" name="Title" style="-unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); color: rgb(255, 255, 0); font-size: 136px; -unity-text-align: upper-center; background-color: rgba(67, 188, 189, 0); background-image: none; background-size: contain; margin-top: 44px;"/>
@@ -10,7 +10,11 @@
                     <ui:Label text="PICKAXE" name="HeaderLabel" style="-unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); font-size: 63px; -unity-font-style: bold;"/>
                     <ui:VisualElement style="flex-grow: 0; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); font-size: 53px; flex-direction: row; justify-content: center;">
                         <ui:Label text="LEVEL" name="LevelLabel" class="level"/>
-                        <ui:Label text="1" style="margin-left: 30px; font-size: 70px;"/>
+                        <ui:Label text="1" style="margin-left: 30px; font-size: 70px;">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="pickaxeLevel" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
@@ -19,7 +23,11 @@
                     <ui:Label text="Boots&#10;" name="HeaderLabel" style="-unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); font-size: 63px; -unity-font-style: bold;"/>
                     <ui:VisualElement style="flex-grow: 0; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); font-size: 53px; flex-direction: row; justify-content: center;">
                         <ui:Label text="LEVEL" name="LevelLabel" class="level"/>
-                        <ui:Label text="1" style="margin-left: 30px; font-size: 70px;"/>
+                        <ui:Label text="1" style="margin-left: 30px; font-size: 70px;">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="bootLevel" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
@@ -28,7 +36,11 @@
                     <ui:Label text="Machine TIME" name="HeaderLabel" style="-unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); font-size: 43px; -unity-font-style: bold; white-space: nowrap;"/>
                     <ui:VisualElement style="flex-grow: 0; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&amp;guid=8a2b9e2a607dd2143b58c44bc32410b4&amp;type=3#Electronic Highway Sign&quot;); font-size: 53px; flex-direction: row; justify-content: center;">
                         <ui:Label text="LEVEL" name="LevelLabel" class="level"/>
-                        <ui:Label text="1" style="margin-left: 30px; font-size: 70px;"/>
+                        <ui:Label text="machineTimeUpgradedta.picrce" style="margin-left: 30px; font-size: 70px;">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="machineTimeLevel" data-source="project://database/Assets/Scripts/ScriptableObjects/PlayerData.asset?fileID=11400000&amp;guid=ac103367678853148b6c1a98ebb298d4&amp;type=2#PlayerData" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
@@ -37,21 +49,33 @@
             <ui:Button text="" name="PickaxeButton" class="button" style="height: 150px; width: 150px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Textures/upgrade.png?fileID=21300000&amp;guid=c987129ee37ae9d49aa8e82d896e8633&amp;type=3#upgrade&quot;); background-color: rgba(188, 188, 188, 0); background-size: contain; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);"/>
             <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center; margin-top: 4px;">
                 <ui:Label text="$" name="PriceLabel" class="price" style="margin-top: 0; margin-bottom: 0;"/>
-                <ui:Label text="50" name="PriceTag" class="price" style="margin-top: 0; margin-bottom: 0;"/>
+                <ui:Label text="50" name="PriceTag" class="price" style="margin-top: 0; margin-bottom: 0;">
+                    <Bindings>
+                        <ui:DataBinding property="text" data-source-path="price" data-source="project://database/Assets/Scripts/ScriptableObjects/Upgrades/pickprice.asset?fileID=11400000&amp;guid=d7c56b3524af775428938031dd271ace&amp;type=2#pickprice" binding-mode="ToTarget"/>
+                    </Bindings>
+                </ui:Label>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="BootsUpgrade" style="flex-grow: 1; position: absolute; top: 582px; left: 595px;">
             <ui:Button text="" name="BootsButton" class="button" style="height: 150px; width: 150px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Textures/upgrade.png?fileID=21300000&amp;guid=c987129ee37ae9d49aa8e82d896e8633&amp;type=3#upgrade&quot;); background-color: rgba(188, 188, 188, 0); background-size: contain; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);"/>
             <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center; margin-top: 4px;">
                 <ui:Label text="$" name="PriceLabel" class="price" style="margin-top: 0; margin-bottom: 0;"/>
-                <ui:Label text="50" name="PriceTag" class="price" style="margin-top: 0; margin-bottom: 0;"/>
+                <ui:Label text="50" name="PriceTag" class="price" style="margin-top: 0; margin-bottom: 0;">
+                    <Bindings>
+                        <ui:DataBinding property="text" data-source-path="price" data-source="project://database/Assets/Scripts/ScriptableObjects/Upgrades/bootpice.asset?fileID=11400000&amp;guid=fe6a761634d910b4eb4ef80ba747867b&amp;type=2#bootpice" binding-mode="ToTarget"/>
+                    </Bindings>
+                </ui:Label>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="MachineTimeButton" style="flex-grow: 1; position: absolute; top: 822px; left: 594px;">
             <ui:Button text="" name="MachineTimeButton" class="button" style="height: 150px; width: 150px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Textures/upgrade.png?fileID=21300000&amp;guid=c987129ee37ae9d49aa8e82d896e8633&amp;type=3#upgrade&quot;); background-color: rgba(188, 188, 188, 0); background-size: contain; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);"/>
             <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center; margin-top: 4px;">
                 <ui:Label text="$" name="PriceLabel" class="price" style="margin-top: 0; margin-bottom: 0;"/>
-                <ui:Label text="50" name="PriceTag" class="price" style="margin-top: 0; margin-bottom: 0;"/>
+                <ui:Label text="50" name="PriceTag" class="price" style="margin-top: 0; margin-bottom: 0;">
+                    <Bindings>
+                        <ui:DataBinding property="text" data-source-path="picrce" data-source="project://database/Assets/Scripts/ScriptableObjects/Upgrades/machinetimedeatprice.asset?fileID=11400000&amp;guid=3e100f0a031fb9b4390ea536a8f30f6a&amp;type=2#machinetimedeatprice" binding-mode="ToTarget"/>
+                    </Bindings>
+                </ui:Label>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:Button text="" enable-rich-text="true" name="CloseButton" class="button" style="position: absolute; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Textures/X.png?fileID=21300000&amp;guid=5f9a2d1f66df5af4d8ab2b47c56bdadc&amp;type=3#X&quot;); background-size: contain; background-color: rgba(188, 188, 188, 0); width: 100px; height: 100px; top: 35px; left: 1210px; border-left-color: rgba(19, 19, 19, 0); border-right-color: rgba(19, 19, 19, 0); border-top-color: rgba(19, 19, 19, 0); border-bottom-color: rgba(19, 19, 19, 0);"/>

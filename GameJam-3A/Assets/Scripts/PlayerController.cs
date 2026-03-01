@@ -3,7 +3,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private PlayerData playerData;
+    [SerializeField] private GameObject pickaxe1;
+    [SerializeField] private GameObject pickaxe2;
+    [SerializeField] private GameObject pickaxe3;
+
+
+    public PlayerData playerData;
+    public Pickaxe pickaxe;
+
     private ShopHandler _shopHandler;
 
     [SerializeField] private Animator animator;
@@ -36,6 +43,32 @@ public class PlayerController : MonoBehaviour
         if (_shopHandler._shopOpen) return;
         Movement();
         Mining();
+        LevelOfPickaxe();
+    }
+
+    void LevelOfPickaxe()
+    {
+        if (playerData.pickaxeLevel == 1) 
+        {
+            pickaxe.damage = 5;
+            pickaxe1.SetActive(true);
+            pickaxe2.SetActive(false);
+            pickaxe3.SetActive(false);
+        }
+        else if (playerData.pickaxeLevel == 2)
+        {
+            pickaxe.damage = 15;
+            pickaxe1.SetActive(false);
+            pickaxe2.SetActive(true);
+            pickaxe3.SetActive(false);
+        }
+        else if (playerData.pickaxeLevel == 3)
+        {
+            pickaxe.damage = 30;
+            pickaxe1.SetActive(false);
+            pickaxe2.SetActive(false);
+            pickaxe3.SetActive(true);
+        }
     }
 
     void Movement()
