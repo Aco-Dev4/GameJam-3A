@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6305626342668615858}
   - component: {fileID: -6847684265719552026}
   - component: {fileID: 8360779865345469190}
+  - component: {fileID: 8486790062064846612}
+  - component: {fileID: 1614976682142157}
   m_Layer: 0
   m_Name: PLAYER
   m_TagString: Player
@@ -286,6 +288,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 305585e93c2ff5b49882cf84071cdc6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!114 &8486790062064846612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194118114364635768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11bdb8eb0561ad4599f1dd5af78160c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopHandler
+  _document: {fileID: 0}
+  _guiDoc: {fileID: 0}
+--- !u!114 &1614976682142157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194118114364635768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980fae2538853584e9960b067ee4ccc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopManager
 --- !u!1 &7823744868401641101
 GameObject:
   m_ObjectHideFlags: 0
