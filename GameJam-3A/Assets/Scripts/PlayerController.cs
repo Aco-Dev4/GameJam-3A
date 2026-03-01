@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject pickaxe2;
     [SerializeField] private GameObject pickaxe3;
 
-
     public PlayerData playerData;
     public Pickaxe pickaxe;
 
@@ -16,10 +15,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator animator;
     private CharacterController controller;
 
+    [SerializeField] private GameObject _elevatorText;
+    [SerializeField] private GameObject _drillText;
+
     private Vector3 velocity;
     private float nextMineTime = 0f;
-
-    bool moving;
 
     public AudioSource walkAudio;
     public AudioSource jumpAudio;
@@ -29,6 +29,30 @@ public class PlayerController : MonoBehaviour
     private InputAction mineAction;
 
     bool actuallyminingrightnowatthemoment = false;
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Elevator"))
+        {
+            _elevatorText.SetActive(true);
+        }
+
+        if (other.CompareTag("Drill"))
+        {
+            _drillText.SetActive(true);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Elevator"))
+        {
+            _elevatorText.SetActive(false);
+        }
+        if (other.CompareTag("Drill"))
+        {
+            _drillText.SetActive(false);
+        }
+    }
 
     void Start()
     {
@@ -157,15 +181,11 @@ public class PlayerController : MonoBehaviour
                 walkAudio.loop = true;
                 walkAudio.Play();
             }
-
-            moving = true;
         }
         else
         {
             if (walkAudio != null && walkAudio.isPlaying)
                 walkAudio.Stop();
-
-            moving = false;
         }
 
         // --- Skok a Gravitácia (Starý Input System) ---

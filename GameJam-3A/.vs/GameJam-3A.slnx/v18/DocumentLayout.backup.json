@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\quota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\shophandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shophandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\animevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\pickaxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickaxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OreHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\scriptableobjects\\scripts\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\scripts\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\scriptableobjects\\scripts\\oredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\scripts\\oredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\elevatorarrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatorarrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Quota.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Quota.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quota.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Quota.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quota.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T17:07:24.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnimEvent.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\AnimEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimEvent.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\AnimEvent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ShopManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShopManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ShopManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShopManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T16:52:43.352Z",
+              "WhenOpened": "2026-02-28T23:08:11.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pickaxe.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Pickaxe.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Pickaxe.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Pickaxe.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Pickaxe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ShopHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ShopHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShopHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ShopHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShopHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:36:28.095Z",
+              "WhenOpened": "2026-02-28T22:59:47.257Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:45:51.104Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "OreData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ScriptableObjects\\scripts\\OreData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\scripts\\OreData.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ScriptableObjects\\scripts\\OreData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\scripts\\OreData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Title": "ElevatorArrival.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorArrival.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorArrival.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorArrival.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ElevatorArrival.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:43:54.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:02:34.418Z"
+              "WhenOpened": "2026-02-28T22:50:49.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PlayerData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\TimeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\TimeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wCsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T10:48:18.187Z",
+              "WhenOpened": "2026-02-28T22:37:26.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OreHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\OreHandler.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\OreHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAxAAAAAAAAAA==",
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\scripts\\PlayerData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T16:34:45.411Z",
+              "WhenOpened": "2026-02-28T22:25:51.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:20:14.629Z",
               "EditorCaption": ""
             }
           ]
