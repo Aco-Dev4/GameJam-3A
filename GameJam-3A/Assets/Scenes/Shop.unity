@@ -45718,6 +45718,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7391816407578913197, guid: 6e11b42b5e2513c47bb11c604a43a55f, type: 3}
   m_PrefabInstance: {fileID: 845362825}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1895899189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895899191}
+  - component: {fileID: 1895899190}
+  m_Layer: 0
+  m_Name: ShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1895899190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895899189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980fae2538853584e9960b067ee4ccc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopManager
+  manager: {fileID: 554624941}
+  playerController: {fileID: 1078554391}
+  _document: {fileID: 118463841}
+  pickaxeUpgradeData: {fileID: 11400000, guid: d7c56b3524af775428938031dd271ace, type: 2}
+  bootUpgradeDtat: {fileID: 11400000, guid: fe6a761634d910b4eb4ef80ba747867b, type: 2}
+  machineTimeUpgradedta: {fileID: 11400000, guid: 3e100f0a031fb9b4390ea536a8f30f6a, type: 2}
+  bootUpgrade: 5
+--- !u!4 &1895899191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895899189}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1901944647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51886,3 +51937,4 @@ SceneRoots:
   - {fileID: 1154357256}
   - {fileID: 1990725636}
   - {fileID: 113302481}
+  - {fileID: 1895899191}
