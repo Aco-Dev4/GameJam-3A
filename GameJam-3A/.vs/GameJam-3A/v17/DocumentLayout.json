@@ -1,8 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\my projects\\gamejam-3a\\gamejam-3a\\assets\\scripts\\drill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
       "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -24,30 +31,8 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 47075b322d326e9a160570a99bdd47e8963b292b
       "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\lockzposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockzposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\elevatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\orenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\orenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\elevatorarrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatorarrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,6 +47,17 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "Drill.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Drill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Drill.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Drill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Drill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T01:41:15.611Z",
+              "EditorCaption": ""
+=======
               "Title": "SettingsMenu.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\SettingsMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsMenu.cs",
@@ -120,17 +116,22 @@
               "ViewState": "AgIAAAAAAABAMzMzMzMbwCoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T20:41:29.283Z"
+>>>>>>> 47075b322d326e9a160570a99bdd47e8963b292b
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAgAAAAANDMzMzP3vwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-02-28T20:20:36.056Z",
+              "EditorCaption": ""
+=======
               "WhenOpened": "2026-02-28T20:20:36.056Z"
             },
             {
@@ -203,6 +204,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T13:56:44.069Z"
+>>>>>>> 47075b322d326e9a160570a99bdd47e8963b292b
             }
           ]
         }

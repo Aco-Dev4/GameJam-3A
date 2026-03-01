@@ -3,23 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\spikedeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikedeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\spiderjumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spiderjumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\orehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\orehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\orehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|c:\\users\\matus\\documents\\github\\gamejam-3a\\gamejam-3a\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0B9FA5-4131-0E11-9360-3D37E2DB1C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,43 +46,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpikeDeath.cs",
-              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\SpikeDeath.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpikeDeath.cs",
-              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\SpikeDeath.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpikeDeath.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwDQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:56:57.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:18:29.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpiderJumpscare.cs",
-              "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\SpiderJumpscare.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpiderJumpscare.cs",
-              "ToolTip": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\SpiderJumpscare.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpiderJumpscare.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwDoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:00:02.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "OreHandler.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OreHandler.cs",
@@ -102,11 +53,12 @@
               "RelativeToolTip": "Assets\\Scripts\\OreHandler.cs",
               "ViewState": "AgIAAAAAAABAMzMzMzMbwCoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T20:41:29.283Z"
+              "WhenOpened": "2026-02-28T20:41:29.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -114,11 +66,12 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAgAAAAANDMzMzP3vwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T20:20:36.056Z"
+              "WhenOpened": "2026-02-28T20:20:36.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MovingPlatform.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatform.cs",
@@ -130,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "LockZPosition.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\LockZPosition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LockZPosition.cs",
@@ -142,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ElevatorArrival.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorArrival.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorArrival.cs",
@@ -154,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ElevatorTrigger.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\ElevatorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorTrigger.cs",
@@ -166,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Ore.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ACER\\Desktop\\My Projects\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\Ore.cs",
@@ -177,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "OreNode.cs",
               "DocumentMoniker": "C:\\Users\\matus\\Documents\\GitHub\\GameJam-3A\\GameJam-3A\\Assets\\Scripts\\OreNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OreNode.cs",
