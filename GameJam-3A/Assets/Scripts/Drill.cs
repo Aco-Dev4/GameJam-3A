@@ -51,7 +51,7 @@ public class Drill : MonoBehaviour
         switch (drill_level)
         {
             case 1:
-                TimerManager.Instance.StartTimer(180);
+                TimerManager.Instance.StartTimer(120);
                 GameManager.Instance.IncreaseTarget(150);
                 GameManager.Instance.UpgradeModel();
                 drill_model++;

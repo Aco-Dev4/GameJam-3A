@@ -12475,7 +12475,7 @@ MonoBehaviour:
   deathText: {fileID: 431867382}
   audioSource: {fileID: 1593595979}
   hit: {fileID: 8300000, guid: 4f06d17705fe1b54d8413599f349aa3a, type: 3}
-  sceneIndexToLoad: 1
+  sceneIndexToLoad: 2
   waitBeforeLoad: 3
   fadeDuration: 0.2
 --- !u!1001 &492190424
@@ -12672,7 +12672,7 @@ MonoBehaviour:
   scareText: {fileID: 279650137}
   audioSource: {fileID: 1593595979}
   hit: {fileID: 8300000, guid: 4f06d17705fe1b54d8413599f349aa3a, type: 3}
-  sceneIndexToLoad: 1
+  sceneIndexToLoad: 2
   jumpHeight: 3
 --- !u!65 &496679118
 BoxCollider:
@@ -15453,7 +15453,7 @@ MonoBehaviour:
   object2ToMove: {fileID: 1115755779}
   posunY: 7
   trvaniePohybu: 3
-  indexNovejSceny: 1
+  indexNovejSceny: 2
   fadeCanvasGroup: {fileID: 1328714154}
   casStmievania: 3
   audioSource: {fileID: 1115755783}
@@ -37167,7 +37167,7 @@ MonoBehaviour:
   scareText: {fileID: 279650137}
   audioSource: {fileID: 1593595979}
   hit: {fileID: 8300000, guid: 4f06d17705fe1b54d8413599f349aa3a, type: 3}
-  sceneIndexToLoad: 1
+  sceneIndexToLoad: 2
   jumpHeight: 3
 --- !u!65 &1365715013
 BoxCollider:

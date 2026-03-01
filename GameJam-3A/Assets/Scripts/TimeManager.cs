@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // 1. DÔLEITÉ: Musíme prida túto kninicu pre prácu so scénami
 
 public class TimerManager : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class TimerManager : MonoBehaviour
 
     public float CurrentTime;
     public bool IsRunning;
+
+    [Header("Nastavenia scény po vypršaní èasu")]
+    public int sceneIndexToLoad; // 2. TU si v Inspectore nastavíš èíslo scény z Build Settings
 
     private void Awake()
     {
@@ -31,11 +35,13 @@ public class TimerManager : MonoBehaviour
     {
         IsRunning = false;
     }
+
     public void ResetTimer()
     {
         CurrentTime = 1f;
         IsRunning = false;
     }
+
     public void AddTime(float timeToAdd)
     {
         CurrentTime += timeToAdd;
@@ -49,14 +55,15 @@ public class TimerManager : MonoBehaviour
 
         CurrentTime -= Time.deltaTime;
 
-
         if (CurrentTime <= 0f)
         {
             IsRunning = false;
             CurrentTime = 0f;
 
-            Debug.Log("Timer finished");
-            // trigger event here
+            Debug.Log("Timer finished. Naèítavam novú scénu!");
+
+            // 3. PREPNUTIE SCÉNY
+            SceneManager.LoadScene(sceneIndexToLoad);
         }
     }
 }
