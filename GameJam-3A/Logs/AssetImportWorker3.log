@@ -1,11 +1,20 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-matus" at "2026-02-28T23:56:02.2102598Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'sk' Physical Memory: 32485 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
 Date: 2026-02-28T23:56:02Z
+========
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T23:57:27Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre" at "2026-02-28T23:57:27.1691362Z"
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -13,6 +22,7 @@ C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 AssetImportWorker3
 -projectPath
 C:/Users/matus/Documents/GitHub/GameJam-3A/GameJam-3A
@@ -22,6 +32,17 @@ Logs/AssetImportWorker3.log
 51457
 -licensingIpc
 LicenseClient-matus
+========
+AssetImportWorker4
+-projectPath
+C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51673
+-licensingIpc
+LicenseClient-andre
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 -job-worker-count
 13
 -background-job-worker-count
@@ -30,8 +51,13 @@ LicenseClient-matus
 1
 -name
 AssetImport
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 Successfully changed project path to: C:/Users/matus/Documents/GitHub/GameJam-3A/GameJam-3A
 C:/Users/matus/Documents/GitHub/GameJam-3A/GameJam-3A
+========
+Successfully changed project path to: C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A
+C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,12 +93,21 @@ C:/Users/matus/Documents/GitHub/GameJam-3A/GameJam-3A
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 Player connection [16380]  Target information:
 
 Player connection [16380]  * "[IP] 192.168.88.3 [Port] 0 [Flags] 2 [Guid] 121252588 [EditorId] 121252588 [Version] 1048832 [Id] WindowsEditor(7,Lopakovec) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [16380] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [16380] Host joined alternative multi-casting on [225.0.0.222:34997]...
+========
+Player connection [65048]  Target information:
+
+Player connection [65048]  * "[IP] 192.168.1.201 [Port] 0 [Flags] 2 [Guid] 3685624449 [EditorId] 3685624449 [Version] 1048832 [Id] WindowsEditor(7,Jaco) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [65048] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [65048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,6 +119,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
@@ -96,16 +132,39 @@ Direct3D:
     Vendor:   ATI
     VRAM:     16177 MB
     Driver:   32.0.23027.2005
+========
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/andre/Documents/GitHub/GameJam-3A/GameJam-3A/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5080 (ID=0x2c02)
+    Vendor:   NVIDIA
+    VRAM:     15977 MB
+    Driver:   32.0.15.9159
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.001630 seconds.
 - Loaded All Assemblies, in  0.327 seconds
+========
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001198 seconds.
+- Loaded All Assemblies, in  0.318 seconds
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
@@ -118,13 +177,20 @@ Native extension for WindowsStandalone target not found
 [Licensing::Module] Licensing Background thread has ended after 0.98s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 - Finished resetting the current domain, in  0.325 seconds
 Domain Reload Profiling: 650ms
 	BeginReloadAssembly (110ms)
+========
+- Finished resetting the current domain, in  0.386 seconds
+Domain Reload Profiling: 701ms
+	BeginReloadAssembly (100ms)
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -147,6 +213,30 @@ Domain Reload Profiling: 650ms
 			BeforeProcessingInitializeOnLoad (78ms)
 			ProcessInitializeOnLoadAttributes (132ms)
 			ProcessInitializeOnLoadMethodAttributes (51ms)
+========
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (123ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -156,10 +246,20 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              448d724d87bf46b1be6bc5bf5afba53e
+  Correlation Id:          f4287e21db5bcc9a06b953521ae3a86d
+  External correlation Id: 5473492299689090586
+  Machine Id:              BBqk9ouc6KwrFMgZ9PyvBKSzdt8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-andre" (connect: 0.00s, validation: 0.00s, handshake: 1.68s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre-notifications" at "2026-02-28T23:57:28.8540184Z"
+[Licensing::Module] Licensing Background thread has ended after 1.69s
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
   Id: 7971892376663-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
@@ -169,6 +269,17 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+========
+  Id: 7971699078619-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.584 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -180,6 +291,7 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<<< HEAD:GameJam-3A/Logs/AssetImportWorker3.log
 - Finished resetting the current domain, in  0.526 seconds
 Domain Reload Profiling: 1073ms
 	BeginReloadAssembly (122ms)
@@ -236,6 +348,56 @@ Received Import Request.
   artifactKey: Guid(e11bdb8eb0561ad4599f1dd5af78160c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Assets/Scripts/ShopHandler.cs using Guid(e11bdb8eb0561ad4599f1dd5af78160c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c82c6afeda267cd9f9b45ae9d620974d') in 0.013675 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+========
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1309ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6682 unused Assets / (3.8 MB). Loaded Objects now: 7501.
+Memory consumption went from 239.3 MB to 235.5 MB.
+Total: 8.239600 ms (FindLiveObjects: 1.031500 ms CreateObjectMapping: 0.509800 ms MarkObjects: 5.047000 ms  DeleteObjects: 1.650200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 546044.220570 seconds.
+  path: Assets/UI Toolkit/GUI.uxml
+  artifactKey: Guid(29da3a5b1f03be64097470817567ebe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI Toolkit/GUI.uxml using Guid(29da3a5b1f03be64097470817567ebe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6832615de662df40d5cdcfbe8de637dd') in 0.0984806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+>>>>>>>> 3735e431d3c20434c8878c0179d731f6cf7e70ad:GameJam-3A/Logs/AssetImportWorker4.log
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
