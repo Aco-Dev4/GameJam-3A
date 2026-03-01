@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Drill : MonoBehaviour
 {
     public GameObject[] drill_models;
@@ -16,6 +16,10 @@ public class Drill : MonoBehaviour
         drill_level = GameManager.Instance.drillLevel;
         drill_model = GameManager.Instance.drillModel;
         GameObject drill = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
+        if (drill_model != 0)
+        {
+            drill.transform.localScale *= scale;
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -84,6 +88,7 @@ public class Drill : MonoBehaviour
                 Destroy(transform.GetChild(0).gameObject);
                 GameObject drill3 = Instantiate(drill_models[drill_model], transform.position, transform.rotation, transform);
                 drill3.transform.localScale *= scale;
+                SceneManager.LoadScene(5);
                 break;
             default:
                 audioS.PlayOneShot(finish);

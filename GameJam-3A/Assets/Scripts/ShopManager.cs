@@ -128,6 +128,7 @@ public class ShopManager : MonoBehaviour
         RefreshPrices();
         if (!TrySpend(machineTimeUpgradedta.picrce)) return;
 
+        TimerManager.Instance.AddTime(30);
         playerData.machineTimeLevel++;
 
         RefreshPrices();
