@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int quotaTarget;
     public int quotaAmount;
     public int money;
+    public int ores;
 
     [Header("Drill")]
     public int drillLevel;

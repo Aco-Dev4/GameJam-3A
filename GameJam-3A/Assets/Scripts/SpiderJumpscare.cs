@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Potrebné pre prepínanie scén
+using UnityEngine.SceneManagement;
 
 public class SpiderJumpscare : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class SpiderJumpscare : MonoBehaviour
     public GameObject scareText;
 
     [Header("Nastavenia Scény")]
-    public int sceneIndexToLoad; // Sem napíš èíslo scény (napr. 1)
+    public int sceneIndexToLoad;
     public float jumpHeight = 2f;
 
     private float totalWaitTime = 5f;
@@ -25,6 +25,14 @@ public class SpiderJumpscare : MonoBehaviour
         if (other.CompareTag("Player") && !isTriggered)
         {
             isTriggered = true;
+
+            // LOGIKA PRE PENIAZE (Strata 70%, zostáva 30%)
+            if (GameManager.manager != null)
+            {
+                GameManager.manager.money = (int)(GameManager.manager.money * 0.3f);
+                GameManager.manager.SyncUI(); // Okamžitá aktualizácia UI
+            }
+
             StartCoroutine(JumpscareSequence(other.transform));
         }
     }
@@ -64,7 +72,7 @@ public class SpiderJumpscare : MonoBehaviour
         if (scareText != null)
             scareText.SetActive(true);
 
-        // Poèkáme, kým uplynie celkový èas 5 sekúnd
+        // Poèkáme, kým uplynie celkový èas
         yield return new WaitForSeconds(totalWaitTime - jumpDuration - fadeDuration);
 
         // 5. NAÈÍTANIE NOVEJ SCÉNY

@@ -51,6 +51,7 @@ public class Drill : MonoBehaviour
         switch (drill_level)
         {
             case 1:
+                TimerManager.Instance.StartTimer(180);
                 GameManager.manager.IncreaseTarget(150);
                 GameManager.manager.UpgradeModel();
                 drill_model++;
@@ -59,9 +60,11 @@ public class Drill : MonoBehaviour
                 drill1.transform.localScale *= scale;
                 break;
             case 2:
+                TimerManager.Instance.AddTime(120);
                 GameManager.manager.IncreaseTarget(150);
                 break;
             case 3:
+                TimerManager.Instance.AddTime(150);
                 GameManager.manager.IncreaseTarget(200);
                 GameManager.manager.UpgradeModel();
                 drill_model++;
@@ -70,9 +73,11 @@ public class Drill : MonoBehaviour
                 drill2.transform.localScale *= scale;
                 break;
             case 4:
+                TimerManager.Instance.AddTime(200);
                 GameManager.manager.IncreaseTarget(300);
                 break;
             case 5:
+                TimerManager.Instance.AddTime(250);
                 GameManager.manager.IncreaseTarget(500);
                 GameManager.manager.UpgradeModel();
                 drill_model++;

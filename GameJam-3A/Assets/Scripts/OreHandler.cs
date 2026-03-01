@@ -55,7 +55,7 @@ public class OreHandler : MonoBehaviour
             Destroy(breakParticles.gameObject, breakParticles.main.duration + 0.5f);
         }
 
-        GameManager.manager.AddValue(oreData.value);
+        GameManager.manager.AddMoney(oreData.value);
 
         // Zničíme samotnú skalu
         GameObject.Destroy(gameObject);
